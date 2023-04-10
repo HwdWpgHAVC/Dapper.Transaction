@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -15,7 +15,7 @@
   <Import Project="..\Dapper.Transaction.Shared\Dapper.Transaction.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.123" />
+    <ProjectReference Include="..\..\Dapper\Dapper\Dapper.csproj" />
   </ItemGroup>
 
 </Project>
